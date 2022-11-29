@@ -1,15 +1,8 @@
 @charset "UTF-8";
 body {
 	background-color: #C9DFF2;i
-
-}
-h1 {
 	text-align: center;
-	color: #3C3D8C;;
-}
-h2 {
-	text-align: center;
-	color: #3c3d8c;
+	color: #3c3d8c;i
 }
 p {
 	text-align: justify;
@@ -17,7 +10,7 @@ p {
 	
 }
 
-div#01 { 
+div { 
 		text-align: center;
 
 	}
