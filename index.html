@@ -7,63 +7,74 @@
 	<link rel="stylesheet" href="style.css">
 	<style>
 
-
-		h1 {	
-			font-family: "Brush Script MT", cursive;
+		h1 {
+			font-family: "Brush ScriptMT", cursive;
 			font-size: 3.0em;
-
 		}
-		h2 {	
-			font-family: "Brush Script MT", cursive;
-			font-size: 2.5em;
 
-		}
+		h2 {                                                      font-family: "Brush ScriptMT", cursive;
+			font-size: 2.5em;         
+                }
+        	
 		p {
 			font-family: "Trebuchet MS", Helvetica, sans-serif;
-		}
-		div > picture {
+		}                
+		
+                div > h2 {
+			font-family: "Brush ScriptMT", cursive;
+			text-align: left;
+			font-size: 2em;
+                }
+
+                div > picture {
                         display: none;
 
-                }
-
-                div:hover > picture {
-                        display: block;
-                        text-align: center;
-                }
-
-		div > p {
-                        display: none;            
-                }
-
-                div:hover > p {                                  display: block;
-                        text-align: center;                       }
-
-		
-		#redes {
-			font-family: "Brush Script MT", cursive;
-			text-align: center;
-			font-size: 2.3em;
-
 		}
 
+		div:hover > picture {
+			display: block;
+			text-align: center;
+	                                      
+		}
+
+		                
+		div > p {		         
+			display: none;	
+		}
+				                
+
+		div:hover > p {
+			display: block;
+		}
+		#redes {
+			font-family: "Brush ScriptMT", cursive;
+			font-size: 2.3em;
+		}
 		a > img {
 			text-align: center;
 			width: 40px;
 			height: 40px;
 			margin: -10px 20px 40px 40px;
 		}
-
 		footer {
+
 			background-color: black;
 			text-align: center;
 			padding: 7px;
-	</style>
+		}
+
+
+
+
+	</style>	
 </head>
 <body>
 	
 
+	
 	<h1> Quem sou eu? </h1>
-	<div> <h2> Click para exibir as infos, sobre quem sou eu! </h2>
+	<div> 
+		<h2> Click para exibir as infos, sobre quem sou eu! </h2>
 		<picture>
 			<source media="(max-width: 750px)" srcset="imagens/celular.jpg" type="image/jpg">
 			<img src="imagens/computador.jpg" alt="Who i am?">
@@ -76,9 +87,7 @@
         <h2>Portfólio</h2>
         <p><a href="pg.html" rel="next">Click aqui</a> para ir até a page de testes!</p>
         <p><a href="pg3.html" rel="next">Click aqui</a> para ir até a page de testes3!</p>
-	<hr>
-        <h2>Livros de Welx.</h2>
-        <p><a href="livros.html" target="_blank" rel="external">Click aqui!</a></p>
+
 
 	<hr>
 	<h3 id="redes">Minhas redes sociais!</h3>

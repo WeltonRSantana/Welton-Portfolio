@@ -1,16 +1,14 @@
 @charset "UTF-8";
 body {
-	background-color: #C9DFF2;i
-	text-align: center;
-	color: #3c3d8c;i
+
+	background-color: #C9DFF2;
+	text-align: left;
+	color: #3c3d8c;
 }
-p {
-	text-align: justify;
-	color: #3D5A73;
+                p {
+			font-family: "Trebuchet MS", Helvetica, sans-serif;	
+			text-align: justify;
+			color: 3D5A73;
+		}
+
 	
-}
-
-div { 
-		text-align: center;
-
-	}
