@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+
+body {
+
+	background-color: #C9DFF2;
+	text-align: left;
+	color: #3c3d8c;
+}
+
+p {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;	
+	text-align: justify;
+	color: #3D5A73;
+}
+
+h1 {                                                      font-family: 'Caveat', cursive;
+	font-size: 3.0em;                         
+}                                 
+                
+h2 {                                                      
+	font-family: 'Caveat', cursive;
+	font-size: 2.5em;
+}
+
+p {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+                                                
+div > h2 {
+        font-family: 'Caveat', cursive;
+        text-align: left;
+        font-size: 2em;
+}
+
+div > picture {
+	display: none;
+
+}
+
+
+div:hover > picture {                                     display: block;                                   text-align: center;
+                                                                  }                                 
+
+div > p {
+        display: none;
+}                                 
+
+div:hover > p {
+	display: block;
+}
+#redes {
+        font-family: "Brush Script
+MT", cursive;
+	font-size: 2.3em;
+}
+a > img {                                                 text-align: center;                               width: 40px;
+        height: 40px;                                     margin: -10px 20px 40px 40px;                                                           
+}                                                
+footer {
+
+        background-color: black;
+        text-align: center;
+        padding: 7px;            
+}
