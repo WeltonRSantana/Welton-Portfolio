@@ -5,90 +5,100 @@
 * {
 	margin: 0px;
 	padding: 0px;
-
-
 }
 
 body {
-
 	background-color: #C9DFF2;
 	text-align: left;
 	color: #3c3d8c;
 }
-
 header {
 	background-image: linear-gradient(to bottom, #C9DFF2, #7991A6);
 	min-height: 140px;
-        padding-top: 40px;	
+	padding-top: 40px;
 }
 
 header > h1 {
         font-family: 'Caveat', cursive;
         margin-bottom: 20px;
         font-size: 3em;
-
 }
 
 header > p {
         font-size: 1.2em;
         text-align: justify;
 }
-
 nav {
 	background-color: #7991A6;
 	margin-bottom: 12px;
+	padding: 12px;
+	padding-left 0;
 }
 
-main {                                                 background-color: #FFFDF7;                     min-width: 280px;                              max-width: 1000px;
-        margin: auto;                                  padding: 20px;                                 box-shadow: 0px 0px 10px black;                margin-bottom: 30px;
-        border-radius: 20px;
+
+nav > a {
+	color: #F7D754;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+ 	font-size: 1.3em;
+	padding-left: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+main {  
+
+	background-color: #FFC0A1;                     
+	min-width: 280px;                              
+	max-width: 1000px;
+        
+	margin: auto;                                  
+	padding: 20px;                                 
+	box-shadow: 0px 0px 10px black;                
+	margin-bottom: 30px;
+        
+	border-radius: 20px;
+
 
 }
 
-p {
+main p {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;	
 	text-align: justify;
 	color: #3D5A73;
 }
 
-h1 {
+main h1 {
 	font-family: 'Caveat', cursive;
 	font-size: 3.0em;                         
-}                                 
-                
-h2 {                                                      
-	font-family: 'Caveat', cursive;
-	font-size: 2.5em;
-}
-
-p {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-
-}
-                                                
-div > h2 {
+}           
+                                    
+main h2 {
         font-family: 'Caveat', cursive;
         text-align: left;
         font-size: 2em;
 }
 
-div > picture {
+main > div > picture {
 	display: none;
+	border-radius: 10px;
 
 }
 
 
-div:hover > picture {
+main > div:hover > picture {
 	display: block;
 	text-align: justify;
 	margin: 17px;
+	border-radius: 10px;
 }
 
-div > p {
+main > div > p {
         display: none;
 }                                 
 
-div:hover > p {
+main > div:hover > p {
 	display: block;
 	margin: 17px;
 }
@@ -96,16 +106,15 @@ div:hover > p {
         font-family: 'Caveat', cursive;
 	font-size: 2.3em;
 }
-a > img { 
+main a > img { 
 
-	text-align: center;
 	width: 40px;
         height: 40px;
-	margin: -10px 40px 40px 40px;
+	margin: -10px 40px 40px 3px;
+	padding-top: 30px;
 }                                                
 footer {
-
-        background-color: black;
+	background-image: linear-gradient(to bottom, #C9DFF2, #000000);
         text-align: center;
         padding: 7px;            
 
